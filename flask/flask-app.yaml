@@ -21,7 +21,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: flask-app
-        image: acrflaskdevops.azurecr.io/flasknew:latest
+        image: acrflaskdevops.azurecr.io/devopsflaskapp:tag
         ports:
         - containerPort: 80
         resources:
